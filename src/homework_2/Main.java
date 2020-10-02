@@ -15,7 +15,7 @@ public class Main {
 
         try (BufferedReader br = new BufferedReader(new InputStreamReader
                 (new FileInputStream(args[0])));
-             Connection ci = new ConnectionImpl();) {
+             Connection ci = new ConnectionImpl()) {
             ci.start();
             Session session =  ci.createSession(true);
             Destination dest = session.createDestination("Queue");
@@ -34,7 +34,8 @@ public class Main {
                 });
                 br.reset();
             }
-
+            //session.close();
+            //ci.close();
         } catch (IOException io) {
             System.out.println("Ошибка при чтении файла!");
         }
