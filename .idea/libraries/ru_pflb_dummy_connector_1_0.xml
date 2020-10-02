@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ru.pflb:dummy-connector:1.0" type="repository">
+    <properties maven-id="ru.pflb:dummy-connector:1.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/pflb/dummy-connector/1.0/dummy-connector-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
